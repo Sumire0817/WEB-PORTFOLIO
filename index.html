@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Work Portfolio</title>
+</head>
+<body>
+    <!--Start of our Header-->
+    <header>
+        <div class="logo">
+            <a href="#">KIAN</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#About"><i class="fa-solid fa-user"></i>About</a></li>
+                <li><a href="#Skills"><i class="fa-solid fa-code"></i></i>Skills</a></li>
+                <li><a href="#Works"><i class="fa-solid fa-code-branch"></i></i></i>Work</a></li>
+                <li><a href="#Contact"><i class="fa-solid fa-phone"></i></i>Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--End of Header-->
+    <!--Start of Home section-->
+    <section class="homeSection" id="Home">
+        <h1>Hi, I'm Kian a&nbsp;<span class="autoType"></span></h1> <!--Typed.js-->
+        <p>I am an front end specialist, crafting beautiful and functional web experiences</p>
+        <a href="#">Get in touch</a> <!--Add link-->
+    </section>
+    <!--End of Home Section-->
+    <!--Start of About Section-->
+    <section class="aboutSection" id="About"> 
+        <div class="aboutContainer">
+            <img src="img/PicOfMe.jpg" alt="Image of me">
+        <div class="aboutContents">
+            <p>I'm an aspiring front end developer passionate about creating visually appealing and user-friendly web experiences. With growing skills in HTML, CSS, and JavaScript, I'm focused on mastering modern web technologies and continuously improving. I'm eager to contribute to exciting projects and bring creative ideas to life!</p>
+        </div>
+        </div>    
+    </section>
+    <!--End of About Section-->
+    <!--Start of Skill Section-->
+    <section class="skillSection" id="Skills">
+        <h2>My Skills</h2>    
+        <div class="skills">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>I have foundational knowledge of HTML and understand how to structure web pages effectively.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css"></i>
+                <h3>CSS</h3>
+                <p>Solid understanding of CSS and can style web pages to make them visually appealing.</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Experienced in using javascript and ESP6+ features</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+                <p>Building Scalable applications with React and Redux</p>
+            </div>
+        </div>
+    </section>
+    <!--End of Skill Section-->
+    <!--Start of Recent Work Section-->
+    <section class="workSection" id="Works">
+        <h2>Recent Works</h2>
+        <div class="workContainer">
+            <!-- Work 1 -->
+            <div class="work">
+                <div class="workImage">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/03/20/44/cat-8611246_1280.jpg" alt="Image of work">
+                </div>
+                <div class="workContents">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Front-end e-commerce platform</p>           
+                    <div class="link">
+                        <hr>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="#">Preview</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Work 2 -->
+            <div class="work">
+                <div class="workImage">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/03/20/44/cat-8611246_1280.jpg" alt="Image of work">
+                </div>
+                <div class="workContents">
+                    <h3>Task Manager App</h3>
+                    <p>Task Management with React</p>
+                   
+                    <div class="link">
+                        <hr>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="#">Preview</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Work 3 -->
+            <div class="work">
+                <div class="workImage">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/03/20/44/cat-8611246_1280.jpg" alt="Image of work">
+                </div>
+                <div class="workContents">
+                    <h3>Social Media Dashboard</h3>
+                    <p>Analytics dashboard with real-time visualization</p>
+                  
+                    <div class="link">
+                        <hr>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="#">Preview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--End of Works Section-->
+    <!--Start of Get in touch Section-->
+    <section class="getInTouch" id="Contact">
+        <div class="getInTouchContainer">
+            <form action="/submit" method="post">
+                <label for="fullname">Name</label>
+                <input type="text" class="input" id="fullname" name="fullname" placeholder="Your Name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" class="input" id="email" name="email" placeholder="Your Email" required>
+    
+                <label for="message">Message</label>
+                <textarea class="input" id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+    
+                <button type="submit" class="getInTouchBtn">Send Message</button>
+            </form>
+        </div>
+    </section>
+        
+    <!--End of Get in touch Section-->
+    <!--Start of Footer-->
+    <footer>
+        <h3><i class="fa-regular fa-copyright"></i> 2024 Copyright, All rights are reserved.</h3>
+        <div class="socials">
+            <ul>
+                <li><a href="https://github.com/your-username" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://facebook.com/your-username" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/your-username" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
